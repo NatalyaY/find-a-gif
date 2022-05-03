@@ -1,0 +1,39 @@
+<div class="category-page flex-row align-normal">
+    <section class="category-page__categories-list">
+        <h2 class='heading'>Categories:</h2>
+        <label for="form__mobile_checkbox" class="form__mobile_label">
+            <span class='form__mobile_msg'>Open searchform</span>
+        </label>
+        <div class="category-page__categories-list__container"></div>
+    </section>
+    <section class="category-page__content">
+        <input id='form__mobile_checkbox' class="form__mobile_checkbox" type="checkbox">
+        <section class="category-page__searh-form searh-form-container flex padding-bottom">
+            <header>
+                <h2 class="heading">Find a best gif ever:</h2>
+            </header>
+            <form class="search-form flex-row">
+                <label class="search-form__label" for="search">Enter a keyword: </label>
+                <input class="search-form__input" type="text" name="search" placeholder="cat">
+                <input type="submit" name="submit" value="Find!" class="btn submit-button">
+            </form>
+        </section>
+        <section class="padding-bottom category-page__all-categories categories">
+            <header class="category-heading flex-row">
+                <h2 class="category-heading__heading heading"></h2>
+            </header>
+        </section>
+        <template id='category-header'>
+            <header class="category-heading flex-row">
+                <h2 class="category-heading__heading heading"><span></span></h2>
+                <a href="" class="category-heading__back">Back to all categories</a>
+        </template>
+        <template id='gifPopup'>
+            <aside class='gifPopup'>
+                <div class="popupContent">
+                </div>
+                <img src="/img/close.png" alt="close" class="close">
+            </aside>
+        </template>
+    </section>
+</div>

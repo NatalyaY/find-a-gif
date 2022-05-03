@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get a gif</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body class="page flex">
+    <header class="page__header header flex">
+        <section class="content header__content">
+            <div class='logo flex-row'>
+                <a href="/" data-page="/" class="logo__container flex-row">
+                    <img src="/img/logo.gif" alt="logo" class='siteLogo'>
+                    <div class="logo__text flex">
+                        <p class="siteName">find-a-gif</p>
+                        <p class="slogan">best gifs ever!</p>
+                    </div>
+                </a>
+                <input id='menu__mobile_checkbox' class="menu__mobile_checkbox" type="checkbox">
+                <label for="menu__mobile_checkbox" class="menu__mobile_label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav class="site-nav">
+                    <ul class="site-nav__menu flex-row">
+                        <li class="menu__item flex"><a class="item__link" data-page="random">Random gif</a></li>
+                        <li class="menu__item flex"><a class="item__link" data-page="category">Gifs by category</a></li>
+                        <li class="menu__item flex"><a class="item__link" data-page="trending">Trending gifs</a></li>
+                        <li class="menu__item flex"><a class="item__link" data-page="tags">Search tags</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main class="page__main main">
+        <section class='content main__content'>
+            <h1 class="pages-heading"></h1>
+            <div class='pages-content'>
+            </div>
+        </section>
+    </main>
+    <footer class='page__footer footer'>
+        <section class="content footer__content flex-row">
+            <div class="logo__text-footer flex">
+                <p class="siteName">find-a-gif</p>
+                <p class="slogan">best gifs ever!</p>
+            </div>
+            <p class="footer__text">&#169 2020-2022</p>
+            <img src="/img/Poweredby.png">
+        </section>
+    </footer>
+    <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.7.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-functions.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+</body>
+
+</html>

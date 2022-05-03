@@ -1,0 +1,24 @@
+<div class="sortContainer">
+    <h3 class="heading sortContainer__heading">View all search tags by <span class="sortContainer__sortType">alphabet</span></h3>
+    <div class="sortContainer__selectContainer">
+        <h3 class="heading selectContainer__heading">Sort By:</h3>
+        <select name="sort" id="sort">
+            <option value="alphabet">alphabet</option>
+            <option value="popular">popularity</option>
+            <option value="recent">recency</option>
+        </select>
+    </div>
+</div>
+<div id="sortedKwrds"></div>
+<template id='category-header'>
+    <header class="category-heading flex-row">
+        <h2 class="category-heading__heading heading"><span></span></h2>
+        <a href="" class="category-heading__back">Back to all tags</a>
+</template>
+<template id='gifPopup'>
+    <aside class='gifPopup'>
+        <div class="popupContent">
+        </div>
+        <img src="/img/close.png" alt="close" class="close">
+    </aside>
+</template>
